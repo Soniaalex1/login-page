@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Group N</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      background-color: #f2f2f2;
+      width: 150px;
+      padding: 20px;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    button {
+      background-color: #e0e0e0;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>Group N</h1>
+      <button>Menu 1</button>
+      <button>Menu 2</button>
+      <button>Menu 3</button>
+      <button>Menu 4</button>
+      <button>Menu 5</button>
+    </div>
+    <div class="content">
+      <p>Copyright text can be added here.</p>
+    </div>
+  </div>
+</body>
+</html>
